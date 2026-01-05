@@ -3,6 +3,16 @@
     <style name="Base.Theme.FlagQuiz" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+
+        //for splash screen it is
+        <item name="android:statusBarColor">@color/bgColor</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/icon1</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/pink</item>
+        <item name="android:windowSplashScreenBackground">@color/white</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/logo2</item>
+
+
     </style>
 
     <style name="Theme.FlagQuiz" parent="Base.Theme.FlagQuiz" />
